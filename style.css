@@ -39,7 +39,8 @@ html,body{
 
 @media (max-width : 600px) {
     #btn{
-        font-size: 10px;
+        font-size: 12px;
+        border-radius: 12px;
     }
     #img{
         width: 75%;
