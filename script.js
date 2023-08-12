@@ -1,6 +1,9 @@
 const btn = document.getElementById('btn');
 const img = document.getElementById('img');
-
+function stopLoad(){
+    document.querySelector("#loading").style.display = 'none';
+    document.querySelector(".container").style.display = 'flex';
+}
 btn.addEventListener('click',toggleEyes);
 
 function toggleEyes(){
